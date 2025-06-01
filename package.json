@@ -32,8 +32,10 @@
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-medium-image-zoom": "^5.2.14",
     "tailwind-merge": "^3.3.0",
-    "zod": "^3.25.30"
+    "zod": "^3.25.30",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
