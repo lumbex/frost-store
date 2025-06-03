@@ -5,6 +5,7 @@ import Footer from "@/components/shared/footer";
 
 
 import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from '@/lib/constants'
+import {Toaster} from "sonner";
 export const metadata: Metadata = {
     title: {
         template: `%s | ${APP_NAME}`,
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body>
       <div className='flex flex-col min-h-screen'>
           <Header />
+          <Toaster />
           <main className='flex-1 flex flex-col'>{children}</main>
           <Footer />
       </div>
