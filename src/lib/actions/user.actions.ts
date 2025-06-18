@@ -17,7 +17,7 @@ export const SignOut = async () => {
 }
 
 export const SignInWithGoogle = async () => {
-    await signIn('google')
+    await signIn('google', { callbackUrl: '/' })
 }
 
 // CREATE
